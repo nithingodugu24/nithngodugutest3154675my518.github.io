@@ -44,7 +44,7 @@ curl_close($curl);
       
       $last2 = $resp2[48].$resp2[49];
      
-$urlp =  "https://srisaionline.co.in/dashboard/api/4.php?first=".$start2."&name=".$name."&last=".$last2."&alphabet=";
+$urlp =  "4.php?first=".$start2."&name=".$name."&last=".$last2."&alphabet=";
 
 echo ' <br>
 <iframe src="'.$urlp.'A" height="200" width="300" title=""></iframe>
